@@ -12,8 +12,3 @@ def binary_search(list, target):
             last = midpoint - 1
 
     return None
-
-
-
-l = ["Sam", "John", "Martha", "Garrett", "Julia"]
-print(binary_search(l, "Sam"))

@@ -3,8 +3,3 @@ def linear_search(list, target):
         if list[i] == target:
             return i
     return None
-
-
-l = ["Hayk", "John", "Martha", "Garret", "Julia"]
-
-print(linear_search(l, "Samvel"))

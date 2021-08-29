@@ -11,8 +11,3 @@ def recursive_binary_search(list, target):
                return recursive_binary_search(list[midpoint + 1:], target)
             if list[midpoint] > target:
                return recursive_binary_search(list[:midpoint], target)
-
-
-l = [1,2,3,4,5,6]
-
-print(recursive_binary_search(l, 4))

@@ -8,5 +8,3 @@ def factorize_number(x):
         else:
             devisor += 1
     return factorized_numbers
-
-print(factorize_number(0))
